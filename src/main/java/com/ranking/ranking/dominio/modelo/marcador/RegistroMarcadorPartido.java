@@ -1,4 +1,4 @@
-package com.ranking.ranking.dominio.modelo;
+package com.ranking.ranking.dominio.modelo.marcador;
 
 public class RegistroMarcadorPartido {
     private int idPartido;

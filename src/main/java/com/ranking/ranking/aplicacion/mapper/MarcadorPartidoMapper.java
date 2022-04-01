@@ -1,6 +1,6 @@
 package com.ranking.ranking.aplicacion.mapper;
 
-import com.ranking.ranking.dominio.modelo.RegistroMarcadorPartido;
+import com.ranking.ranking.dominio.modelo.marcador.RegistroMarcadorPartido;
 import com.ranking.ranking.infraestructura.dto.RegistrarPuntoDto;
 import org.springframework.stereotype.Component;
 

@@ -1,21 +1,12 @@
-package com.ranking.ranking.infraestructura.adaptador.entidad;
+package com.ranking.ranking.dominio.modelo.jugador;
 
-import javax.persistence.*;
+import javax.persistence.Column;
 
-@Entity
-@Table(name = "jugador")
-public class JugadorEntity {
-    @Id
-    @GeneratedValue(strategy =  GenerationType.IDENTITY)
+public class RegistroJugador {
     private int id;
-
-    @Column(name = "nombre")
     private String nombre;
 
-    public JugadorEntity() {
-    }
-
-    public JugadorEntity(int id, String nombre) {
+    public RegistroJugador(int id, String nombre) {
         this.id = id;
         this.nombre = nombre;
     }
